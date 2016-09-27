@@ -13,11 +13,11 @@
     <description>This is the web path where download packoneweb.jar</description>
     <value></value>
   </property>
-  <property>
+  <!--<property>
     <name>port</name>
     <description>This is web port</description>
     <value>8080</value>
-  </property>
+  </property>-->
   <property>
     <name>log_file</name>
     <description>This is log file</description>

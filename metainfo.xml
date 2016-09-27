@@ -22,12 +22,12 @@
      
       </components>
 
-       <quickLinksConfigurations>
+       <!--<quickLinksConfigurations>
         <quickLinksConfiguration>
           <fileName>quicklinks.json</fileName>
           <default>true</default>
         </quickLinksConfiguration>
-      </quickLinksConfigurations>
+      </quickLinksConfigurations>-->
     </service>
   </services>
 </metainfo>
