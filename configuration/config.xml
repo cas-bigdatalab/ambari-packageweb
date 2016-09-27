@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration supports_adding_forbidden="true">
+   
+   <property>
+    <name>packageweb.dir</name>
+    <description>This is the path where  packoneweb.jar store</description>
+    <value>/var/lib/packoneweb</value>
+  </property>
+  <property require-input="true">
+    <name>download.url</name>
+    <description>This is the web path where download packoneweb.jar</description>
+    <value></value>
+  </property>
+  <property>
+    <name>port</name>
+    <description>This is web port</description>
+    <value>8080</value>
+  </property>
+  <property>
+    <name>log_file</name>
+    <description>This is log file</description>
+    <value>/var/log/web.log</value>
+  </property>
+
+</configuration>

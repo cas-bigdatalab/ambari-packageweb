@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<metainfo>
+  <schemaVersion>2.0</schemaVersion>
+  <services>
+    <service>
+      <name>PACKAGEWEB</name>
+      <displayName>PagekageWeb</displayName>
+      <comment>a web package.</comment>
+      <version>1.0</version>
+      <components>
+        <component>
+          <name>packageweb_server</name>
+          <displayName>Web Server</displayName>
+          <category>MASTER</category>
+		  <cardinality>1</cardinality>
+          <commandScript>
+            <script>scripts/package.py</script>
+            <scriptType>PYTHON</scriptType>
+            <timeout>600</timeout>
+          </commandScript>
+        </component>
+     
+      </components>
+
+       <quickLinksConfigurations>
+        <quickLinksConfiguration>
+          <fileName>quicklinks.json</fileName>
+          <default>true</default>
+        </quickLinksConfiguration>
+      </quickLinksConfigurations>
+    </service>
+  </services>
+</metainfo>
